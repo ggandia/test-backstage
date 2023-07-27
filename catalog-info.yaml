@@ -17,29 +17,3 @@ spec:
   type: service
   owner: unknown
   lifecycle: production
-  providesApis: 
-   - policy-service-api1
-  dependsOn:
-    - component:binder-frontend
-    - component:catalog
-    - component:consul
-    - component:cw-rails-sso
-    - component:cw-rails-system-insights
-    - component:cw-ruby-application-mode
-    - component:cw-ruby-carriers-config
-    - component:cw-ruby-code-quality
-    - component:cw-ruby-midas
-    - component:cw-ruby-pubsub
-    - component:cw-ruby-sidekiq-ext
-    - component:cw-tracer
-    - component:paperman
-    - component:quotes-service
-  versionedDepends:
-    cw-rails-sso: 6.0.1
-    cw-rails-system-insights: 0.4.4
-    cw-ruby-application-mode: 4.2.0
-    cw-ruby-carriers-config: 2.2.0
-    cw-ruby-pubsub: 3.1.1
-    cw-ruby-sidekiq-ext: 0.5.0
-    cw-tracer: 1.15.1
-    cw-ruby-code-quality: 0.5.3
